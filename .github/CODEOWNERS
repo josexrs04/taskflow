@@ -1,0 +1,5 @@
+# Sustituye @tu-usuario por tu usuario de GitHub.
+# Así simulas que hay un "dueño" del código que debe revisar los cambios.
+*                    @tu-usuario
+taskflow/config.py   @tu-usuario
+.github/             @tu-usuario
