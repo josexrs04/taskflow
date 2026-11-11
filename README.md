@@ -10,6 +10,17 @@ pip install -e ".[dev]"
 pytest
 ```
 
-## Variable de entorno 'NOTIFICATION_API_TOKEN'
+## Configuración
 
-Hay que definir esta variable de entorno para que funcione
+Las notificaciones necesitan un token de API en la variable de entorno `NOTIFY_API_TOKEN`.
+No lo escribas nunca en el código ni lo subas al repositorio.
+
+PowerShell:
+```powershell
+$env:NOTIFY_API_TOKEN = "tu-token"
+```
+
+Bash:
+```bash
+export NOTIFY_API_TOKEN="tu-token"
+```
